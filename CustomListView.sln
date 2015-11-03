@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomListView", "CustomListView.csproj", "{F13EA9E2-7C14-4041-B31C-413F24348689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomListView.UITests", "CustomListView.UITests\CustomListView.UITests.csproj", "{42B7ED79-0249-4F7B-9356-53C10E729AD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42B7ED79-0249-4F7B-9356-53C10E729AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B7ED79-0249-4F7B-9356-53C10E729AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B7ED79-0249-4F7B-9356-53C10E729AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B7ED79-0249-4F7B-9356-53C10E729AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13EA9E2-7C14-4041-B31C-413F24348689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13EA9E2-7C14-4041-B31C-413F24348689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13EA9E2-7C14-4041-B31C-413F24348689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13EA9E2-7C14-4041-B31C-413F24348689}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
