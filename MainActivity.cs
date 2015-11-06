@@ -31,8 +31,8 @@ namespace CustomListView
 			};
 
 			ListView list = FindViewById<ListView> (Resource.Id.listView1);
-			List<ListItemClass> items = new List<ListItemClass> ();
-			items.Add( new ListItemClass("Title 1","Text 1",Resource.Drawable.Icon));
+			List<ListItemClass> items = new List<ListItemClass> (); // СОЗДАЕМ СПИСОК ДАННЫХ
+			items.Add( new ListItemClass("Title 1","Text 1",Resource.Drawable.Icon)); // ДОБАВЛЯЕМ ЭЛЕМЕНТ ЧЕРЕЗ КОНСТРУКТОР КЛАССА
 			items.Add( new ListItemClass("Title 2","Text 2",Resource.Drawable.Icon));
 			items.Add( new ListItemClass("Title 3","Text 3",Resource.Drawable.Icon));
 			items.Add( new ListItemClass("Title 4","Text 4",Resource.Drawable.Icon));
@@ -40,7 +40,7 @@ namespace CustomListView
 			items.Add( new ListItemClass("Title 6","Text 6",Resource.Drawable.Icon));
 
 
-			list.Adapter = new CustomAdapter (this, items);
+			list.Adapter = new CustomAdapter (this, items); // ПЕРЕДАЕМ ПО НОВОМУ АДАПТЕРУ ИНФОРМАЦИЮ НА ИНТЕРФЕЙС
 		}
 	}
 }
